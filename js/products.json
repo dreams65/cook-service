@@ -1,0 +1,253 @@
+[
+    {   
+        "category": "snacks",
+        "id": 1,
+        "title": "Chutney Samosa Indian",
+        "descr": "To pyszne i satysfakcjonujące danie spodoba się całej rodzinie i Tobie.",
+        "weight": "300g",
+        "price": 35,
+        "calories": "1040 kkal",
+        "imgSrc": "snacks2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 2,
+        "title": "Deska serów",
+        "descr": "Ta pyszna przystawka jest idealna do wina. 4 rodzaje najsmaczniejszych serov.",
+        "weight": "320g",
+        "price": 48,
+        "calories": "1040 kkal",
+        "imgSrc": "snacks1.png",
+        "color": "product-card_top_color_orange"
+    },
+    {
+        "id": 3,
+        "title": "Soczyste skrzydełka BBQ",
+        "descr": "Idealny do zimnego piwa. 8 skrzydełek kurczaka prosto z grilla z sosem BBQ.",
+        "weight": "400g",
+        "price": 45,
+        "calories": "1040 kkal",
+        "imgSrc": "snacks3.png",
+        "color": "product-card_top_color_pink"
+    },
+    {   
+        "category": "salats",
+        "id": 4,
+        "title": "Sałatka grecka z krewetkami",
+        "descr": "Sałatka z oliwkami, serem pleśniowym i krewetkami to idealny lekki lunch",
+        "weight": "470g",
+        "price": 55,
+        "calories": "320 kkal",
+        "imgSrc": "salats1.png",
+        "color": "product-card_top_color_orange"
+    },
+    {
+        "id": 5,
+        "title": "Sałatka włoska z kurczakiem",
+        "descr": "sałatka z kurczakiem, kozim serem pomidorkami koktajlowymi i fasolą",
+        "weight": "450g",
+        "price": 45,
+        "calories": "240 kkal",
+        "imgSrc": "salats2.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 6,
+        "title": "Pikantna sałatka koreańska",
+        "descr": "pikantna sałatka z kurczakiem, papryczkami jalapeno, marchewką i grzankami",
+        "weight": "400g",
+        "price": 49,
+        "calories": "260 kkal",
+        "imgSrc": "salats3.png",
+        "color": "product-card_top_color_blue"
+    },
+    {   
+        "category": "dinner",
+        "id": 7,
+        "title": "Kimchi jigae",
+        "descr": "szalenie pyszne koreańskie danie - duszone kimchi „kimchi jigae”",
+        "weight": "500g",
+        "price": 55,
+        "calories": "530 kkal",
+        "imgSrc": "hot1.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 8,
+        "title": "Gobi mandżurski",
+        "descr": "To kapusta smażona na głębokim tłuszczu w cieście ze specjalnym sosem.",
+        "weight": "450g",
+        "price": 70,
+        "calories": "300 kkal",
+        "imgSrc": "hot2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 9,
+        "title": "Pieczeń wołowa",
+        "descr": "Pachnący, gorący rostbef to klasyczne i zawsze pożądane domowe danie.",
+        "weight": "400g",
+        "price": 68,
+        "calories": "510 kkal",
+        "imgSrc": "hot3.png",
+        "color": "product-card_top_color_orange"
+    },
+    {
+        "category": "sushi",
+        "id": 10,
+        "title": "Roll Kilimandżaro",
+        "descr": "łosoś, krab śnieżny, okoń unagi, jajecznica, szczypiorek, sos unagi, sos mango.",
+        "weight": "500g",
+        "price": 55,
+        "calories": "530 kkal",
+        "imgSrc": "roll1.png",
+        "color": "product-card_top_color_orange"
+    },
+    {
+        "id": 11,
+        "title": "Roll Philadelphia",
+        "descr": "Delikatne połączenie klasycznych składników: ryżu, łososia i serka Philadelphia",
+        "weight": "450g",
+        "price": 70,
+        "calories": "300 kkal",
+        "imgSrc": "roll2.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 12,
+        "title": "Roll Królewski Smok",
+        "descr": "łosoś, węgorz, jajecznica, awokado, sałata lodowa, ogórek, sos unagi, sezam.",
+        "weight": "400g",
+        "price": 68,
+        "calories": "510 kkal",
+        "imgSrc": "roll3.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "category": "soups",
+        "id": 13,
+        "title": "Ramen z wołowiną",
+        "descr": "japońskie danie składające się z chińskiego makaronu pszennego chukamen, tuka-soba,",
+        "weight": "460g",
+        "price": 49,
+        "calories": "530 kkal",
+        "imgSrc": "soup1.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 14,
+        "title": "Barszcz ukraiński",
+        "descr": "Pyszny, obfity, bogaty domowy barszcz ukraiński stanie się Twoim ulubionym daniem",
+        "weight": "450g",
+        "price": 65,
+        "calories": "300 kkal",
+        "imgSrc": "soup2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 15,
+        "title": "Zupa Pomidorowa z Brokułami",
+        "descr": "Pyszna zupa pomidorowa z warzywami idealna na lekki lunch",
+        "weight": "400g",
+        "price": 68,
+        "calories": "510 kkal",
+        "imgSrc": "soup3.png",
+        "color": "product-card_top_color_orange"
+    },
+    {   
+        "category": "for-kids",
+        "id": 16,
+        "title": "Jogurt owocowy",
+        "descr": "Klasyczny jogurt owocowy. truskawka, banan, kiwi",
+        "weight": "200g",
+        "price": 35,
+        "calories": "530 kkal",
+        "imgSrc": "kids1.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 17,
+        "title": "Jogurt z płatkami",
+        "descr": "Klasyczny jogurt z płatkami oraz świeżymi jagodami",
+        "weight": "200g",
+        "price": 35,
+        "calories": "300 kkal",
+        "imgSrc": "kids2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 18,
+        "title": "Naleśniki z bananem",
+        "descr": "pachnące naleśniki z pieczonym bananem i śmietaną",
+        "weight": "260g",
+        "price": 40,
+        "calories": "510 kkal",
+        "imgSrc": "kids3.png",
+        "color": "product-card_top_color_orange"
+    },
+    {   
+        "category": "deserts",
+        "id": 19,
+        "title": "Lody truskawkowe",
+        "descr": "Mieszanka lodów truskawkowo-śmietanowych z syropem",
+        "weight": "200g",
+        "price": 35,
+        "calories": "530 kkal",
+        "imgSrc": "desert1.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 20,
+        "title": "Сzekoladowa babeczka",
+        "descr": "Рuszysta muffinka z kremem waniliowym i świeżymi malinami",
+        "weight": "130g",
+        "price": 25,
+        "calories": "150 kkal",
+        "imgSrc": "desert2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 21,
+        "title": "Sałatka owocowa",
+        "descr": "Аpetyczna sałatka z najświeższych owoców, z dodatkiem jagód i syropu",
+        "weight": "260g",
+        "price": 20,
+        "calories": "130 kkal",
+        "imgSrc": "desert3.png",
+        "color": "product-card_top_color_orange"
+    },
+    {
+        "category": "drinks",
+        "id": 22,
+        "title": "Milk Shake",
+        "descr": "Klasyczny koktajl mleczny z syropem i świeżymi truskawkami",
+        "weight": "0.5l",
+        "price": 18,
+        "calories": "170 kkal",
+        "imgSrc": "drinks1.png",
+        "color": "product-card_top_color_pink"
+    },
+    {
+        "id": 23,
+        "title": "Sprite",
+        "descr": "Sprite powstał w Niemczech jako Fanta Klare Zitrone (Czysta Cytrynowa Fanta)",
+        "weight": "0.33l",
+        "price": 8,
+        "calories": "130 kkal",
+        "imgSrc": "drinks2.png",
+        "color": "product-card_top_color_blue"
+    },
+    {
+        "id": 24,
+        "title": "Coca-Cola",
+        "descr": "Coca-Cola – marka napoju gazowanego przedsiębiorstwa The Coca-Cola Company.",
+        "weight": "0.33l",
+        "price": 8,
+        "calories": "130 kkal",
+        "imgSrc": "drinks3.png",
+        "color": "product-card_top_color_orange"
+    }
+
+
+
+]

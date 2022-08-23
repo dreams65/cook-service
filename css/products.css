@@ -1,0 +1,129 @@
+.products-category__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-category__title {
+    text-transform: uppercase;
+    margin-top: 75px;
+    scroll-margin-block-start: 140px;
+}
+
+.product-card {
+    max-width: 370px;
+    position: relative;
+    margin-top: 55px;
+}
+
+.category-title {
+    margin-top: 75px;
+    scroll-margin-block-start: 140px;
+    visibility: hidden;
+}
+
+.product-card_top {
+    border-radius: 40px 40px 0 0;
+    min-height: 338px;
+    position: relative;
+}
+
+.product-card__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.product-card_top_color_orange {
+    background-color: #FE724B;
+}
+.product-card_top_color_blue {
+    background-color: #B3E0EB;
+}
+.product-card_top_color_pink {
+    background-color: #FCBEC8;
+}
+
+.product-card_content {
+    border-radius: 0 0 40px 5px;
+    border: 1px solid #fff;
+    padding: 20px 15px;
+    background-color: #E9E9E9;
+}
+
+.product-card__title {
+    font-size: 20px;
+}
+
+.product-card__info {
+    display: flex;
+    align-items: center;
+}
+
+.product-card__info > span{
+    margin-right: 15px;
+    font-weight: 100;
+}
+
+.product-card__price {
+    font-weight: 900;
+    color: #25D366;
+    margin-bottom: 0 !important;
+}
+
+.product-card__description {
+    margin-top: 20px;
+    color: rgba(33, 38, 41,.6);
+}
+
+.product-card_bottom {
+   margin-top: 20px; 
+} 
+
+.product-card_btn {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 0 25px 0 25px;
+    border-radius: 40px;
+}
+
+.count > span {
+    margin: 0 10px 0 10px;
+}
+
+.product-card_btn_count-minus,
+.product-card_btn_count-plus {
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.product-card_btn_count-minus {
+    background-image: url('./../assets/img/minus.svg');
+}
+.product-card_btn_count-plus {
+    background-image: url('./../assets/img/plus.svg');
+}
+
+.product-card_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .products-category__wrapper {
+        justify-content: space-around;
+    }
+}

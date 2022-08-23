@@ -1,0 +1,67 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-buttons {
+    display: flex;
+}
+
+
+.btn-custom_whatsapp {
+    border-radius: 12px;
+    background-color: #25D366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    transition: .3s;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.btn-custom_whatsapp:hover {
+    background-color: green;
+    transition: .3s;
+}
+
+.btn-img {
+    margin-right: 10px;
+}
+
+.btn-custom_light {
+    padding: 10px 20px;
+    transition: .3s;
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+    margin-right: 20px;
+}
+
+.btn-custom_light_ico {
+    background-image: url('./../assets/img/personal-btn.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 47px;
+    height: 44px;
+    background-size: 20px;
+    border-radius: 50%;
+    transition: .3s;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+}
+
+.btn-custom_light:hover,
+.btn-custom_light_ico:hover {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+   .btn-custom_nav-bar {
+    display: none;
+   }
+}
