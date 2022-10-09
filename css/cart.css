@@ -167,7 +167,7 @@
         background-size: 30px;
         background-repeat: no-repeat;
     }
-    
+
     .cart__wrapper {
         width: auto;
         left: 15px;
@@ -187,5 +187,15 @@
 
     .cart__checkout_input {
         margin: 0 auto;
+    }
+    .cart__inner {
+        max-height: 200px;
+    }
+
+    .order-image {
+       min-width: auto;
+        max-width: 100px;
+        max-height: 130px;
+        object-fit: contain;
     }
 }
