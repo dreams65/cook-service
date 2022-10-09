@@ -32,7 +32,11 @@
     z-index: 2;
     min-width: 1140px;
     align-items: center;
-    height: 75px;
+    /* height: 75px; */
+}
+
+.category__nav > li {
+    padding: 15px 0 0 0;
 }
 
 .category__link {
